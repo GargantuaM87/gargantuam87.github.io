@@ -38,7 +38,7 @@
   description: |
     A cross-platform command-line toolkit that automates common developer workflows:
     repo scaffolding, changelog generation, semantic release helpers, and CI sanity checks.
-  url: ""
+  url: "https://axiomdb.example.com"
   repo: "https://github.com/GargantuaM87/cli-ops"
   tech:
     - Node.js
@@ -72,7 +72,7 @@
   description: |
     A Jekyll plugin that generates API reference pages from OpenAPI specs and Rust doc-comments.
     Integrates with CI to publish versioned docs.
-  url: ""
+  url: "https://axiomdb.example.com"
   repo: "https://github.com/GargantuaM87/docugen"
   tech:
     - Ruby
