@@ -1,0 +1,103 @@
+- title: "Personal Portfolio (This Site)"
+  description: |
+    A customizable, responsive personal portfolio and blog built with Jekyll and the Chirpy theme.
+    Demonstrates content organization, custom tabs, and theme overrides (Catppuccin Mocha).
+  url: "https://GargantuaM87.github.io"
+  repo: "https://github.com/GargantuaM87/gargantuam87.github.io"
+  tech:
+    - Jekyll
+    - Liquid
+    - SCSS
+    - HTML
+    - GitHub Pages
+  year: 2026
+  featured: true
+  order: 1
+  image: "/assets/img/projects/portfolio.png"
+  license: "MIT"
+
+- title: "AxiomDB — Lightweight Time-series Store"
+  description: |
+    A compact, embeddable time-series database optimized for edge devices. Focuses on
+    low memory footprint, simple HTTP ingestion, and efficient on-disk storage.
+    Includes client libs for Go and Python.
+  url: "https://axiomdb.example.com"
+  repo: "https://github.com/example/axiomdb"
+  tech:
+    - Go
+    - SQLite (custom storage layer)
+    - Protocol Buffers
+    - Docker
+  year: 2024
+  featured: true
+  order: 2
+  image: "/assets/img/projects/axiomdb.png"
+  license: "Apache-2.0"
+
+- title: "cli-ops — Developer Productivity CLI"
+  description: |
+    A cross-platform command-line toolkit that automates common developer workflows:
+    repo scaffolding, changelog generation, semantic release helpers, and CI sanity checks.
+  url: ""
+  repo: "https://github.com/GargantuaM87/cli-ops"
+  tech:
+    - Node.js
+    - TypeScript
+    - oclif
+    - GitHub Actions
+  year: 2025
+  featured: false
+  order: 3
+  image: "/assets/img/projects/cli-ops.png"
+  license: "MIT"
+
+- title: "SpectreML — Lightweight Anomaly Detection"
+  description: |
+    Small-footprint machine learning service for anomaly detection in time-series streams.
+    Designed to run in containers and scale horizontally. Includes model training notebooks.
+  url: "https://spectreml.example.com"
+  repo: "https://github.com/example/spectreml"
+  tech:
+    - Python
+    - PyTorch
+    - Flask
+    - Kubernetes
+  year: 2023
+  featured: false
+  order: 4
+  image: "/assets/img/ayinde.png"
+  license: "BSD-3-Clause"
+
+- title: "DocuGen — Documentation Static Site Generator Plugin"
+  description: |
+    A Jekyll plugin that generates API reference pages from OpenAPI specs and Rust doc-comments.
+    Integrates with CI to publish versioned docs.
+  url: ""
+  repo: "https://github.com/GargantuaM87/docugen"
+  tech:
+    - Ruby
+    - Jekyll Plugin
+    - OpenAPI
+    - GitHub Actions
+  year: 2022
+  featured: false
+  order: 5
+  image: "/assets/img/projects/docugen.png"
+  license: "MIT"
+
+- title: "Pulse — Mobile Habit Tracker"
+  description: |
+    A privacy-focused mobile application to track habits and small goals. Offline-first, encrypted local storage,
+    and periodic backup/export options.
+  url: "https://pulse.example.com"
+  repo: "https://github.com/example/pulse-mobile"
+  tech:
+    - Flutter
+    - SQLite
+    - Riverpod
+    - Firebase (optional sync)
+  year: 2021
+  featured: false
+  order: 6
+  image: "/assets/img/projects/pulse.png"
+  license: "Proprietary"

@@ -1,0 +1,156 @@
+---
+---
+
+/* Catppuccin Mocha — Project card styles
+   File: assets/css/catppuccin-mocha.scss
+   Purpose: Styling for the Projects page cards and thumbnails. Relies on
+   site CSS variables (for the Catppuccin palette) such as:
+     --surface-0, --border, --muted-border, --text, --muted, --accent, --link
+   If those aren't present, sensible fallbacks are provided below. */
+
+/* Fallbacks for environments that haven't yet defined the CSS variables */
+:root {
+  --surface-0:   #313244;
+  --border:      rgba(148,153,178,0.14);
+  --muted-border:rgba(148,153,178,0.08);
+  --text:        #cdd6f4;
+  --muted:       #a6adc8;
+  --accent:      #cba6f7;
+  --link:        #89b4fa;
+}
+
+/* Projects grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: start;
+}
+
+/* Card container */
+.project-card {
+  background: var(--surface-0);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.75rem;
+  border-radius: 12px;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+  box-shadow: 0 6px 18px rgba(7, 8, 12, 0.25);
+  overflow: hidden;
+
+  &.featured {
+    /* Slightly bolder border and accent highlight for featured projects */
+    border-color: color-mix(in srgb, var(--accent) 28%, var(--border) 72%);
+    box-shadow: 0 10px 30px rgba(12, 13, 20, 0.36);
+    transform: translateY(-2px);
+  }
+
+  &:hover,
+  &:focus-within {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 36px rgba(9, 10, 15, 0.42);
+    border-color: color-mix(in srgb, var(--accent) 18%, var(--border) 82%);
+  }
+}
+
+/* Row layout inside each card */
+.project-row,
+.project-card-inner {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+/* Thumbnail wrapper removed — images are no longer used in the Projects page */
+
+/* Image rules removed — thumbnails are not used anymore */
+
+/* Body area next to thumbnail */
+.project-body {
+  flex: 1 1 auto;
+  min-width: 0; /* prevents overflow of long titles */
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+/* Title */
+.project-title {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.2;
+  font-weight: 600;
+  color: var(--text);
+
+  a {
+    color: var(--link);
+    text-decoration: none;
+    transition: color 140ms ease;
+  }
+
+  a:hover,
+  a:focus {
+    color: color-mix(in srgb, var(--link) 75%, black 25%);
+    text-decoration: underline;
+  }
+}
+
+/* Description */
+.project-description {
+  margin: 0;
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  opacity: 0.95;
+}
+
+/* Meta line (tech, repo, year) */
+.project-meta {
+  margin-top: auto; /* push meta to bottom so cards are consistent height */
+  font-size: 0.9rem;
+  color: var(--muted);
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+
+  a {
+    color: var(--link);
+    text-decoration: underline;
+    font-weight: 500;
+  }
+}
+
+/* Small helper: tech badges inside meta */
+.project-meta .tech-badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.02);
+  color: var(--text);
+  padding: 0.18rem 0.45rem;
+  border-radius: 999px;
+  border: 1px solid var(--muted-border);
+  font-size: 0.82rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 560px) {
+  .project-row,
+  .project-card-inner {
+    flex-direction: row; /* keep layout consistent on small screens */
+  }
+
+  /* Thumbnail sizing removed — images no longer displayed */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Accessibility: focus ring for keyboard users */
+.project-card:focus-within {
+  outline: 3px solid color-mix(in srgb, var(--accent) 30%, transparent 70%);
+  outline-offset: 3px;
+}
+
+/* Fallback thumbnail styles removed — image/fallback support disabled */
+
+/* End of Project card styles */
