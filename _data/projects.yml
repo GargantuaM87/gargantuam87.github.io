@@ -1,103 +1,51 @@
-- title: "Personal Portfolio (This Site)"
+- title: "OpenGL Instancing"
   description: |
-    A customizable, responsive personal portfolio and blog built with Jekyll and the Chirpy theme.
-    Demonstrates content organization, custom tabs, and theme overrides (Catppuccin Mocha).
-  url: "https://GargantuaM87.github.io"
-  repo: "https://github.com/GargantuaM87/gargantuam87.github.io"
+    A combination of multiple graphic techniques. This project features custom frame buffers, post-processing, gamma correction, anti-aliasing, and more.
+  url:
+  repo: "https://github.com/GargantuaM87/Instancing-Project"
   tech:
-    - Jekyll
-    - Liquid
-    - SCSS
-    - HTML
-    - GitHub Pages
-  year: 2026
+    - C/C++
+    - CMake
+    - OpenGL
+    - GLFW
+    - Assimp
+    - Dear ImGui
+    - GLAD
+    - GLM
+  year: 2025
   featured: true
   order: 1
   image: "/assets/img/projects/portfolio.png"
   license: "MIT"
 
-- title: "AxiomDB — Lightweight Time-series Store"
+- title: "Sinful Waves"
   description: |
-    A compact, embeddable time-series database optimized for edge devices. Focuses on
-    low memory footprint, simple HTTP ingestion, and efficient on-disk storage.
-    Includes client libs for Go and Python.
-  url: "https://axiomdb.example.com"
-  repo: "https://github.com/example/axiomdb"
+    A little platformer game made for the GitHub Game off 2025 gamejam on itch.io. This was made with a team that had three programmers and some artists.
+    I participated as one of the lead programmers. We made this game in about a month for the theme, "Waves."
+  url: "https://opaline-games.itch.io/sinfulwaves"
+  repo:
   tech:
-    - Go
-    - SQLite (custom storage layer)
-    - Protocol Buffers
-    - Docker
-  year: 2024
+    - Unity
+    - C#
+  year: 2025
   featured: true
   order: 2
-  image: "/assets/img/projects/axiomdb.png"
-  license: "Apache-2.0"
+  image:
+  license:
 
-- title: "cli-ops — Developer Productivity CLI"
+- title: "arcDebugger - A Process Debugger"
   description: |
-    A cross-platform command-line toolkit that automates common developer workflows:
-    repo scaffolding, changelog generation, semantic release helpers, and CI sanity checks.
-  url: "https://axiomdb.example.com"
-  repo: "https://github.com/GargantuaM87/cli-ops"
+    A process debugger that is currently work in progress. I'm writing this in C++ and having a lot of fun learning as I program.
+    Currently, its main functionalities is to attatch to a process and launch a process with/without attatching.
+    Hopefully this will help me figure out the memory leak I have going on my system right now.
+  url:
+  repo: "https://github.com/GargantuaM87/arc-debugger"
   tech:
-    - Node.js
-    - TypeScript
-    - oclif
-    - GitHub Actions
-  year: 2025
+    - C++
+    - CMake
+    - Assembly
+  year: 2026
   featured: false
   order: 3
-  image: "/assets/img/projects/cli-ops.png"
-  license: "MIT"
-
-- title: "SpectreML — Lightweight Anomaly Detection"
-  description: |
-    Small-footprint machine learning service for anomaly detection in time-series streams.
-    Designed to run in containers and scale horizontally. Includes model training notebooks.
-  url: "https://spectreml.example.com"
-  repo: "https://github.com/example/spectreml"
-  tech:
-    - Python
-    - PyTorch
-    - Flask
-    - Kubernetes
-  year: 2023
-  featured: false
-  order: 4
-  image: "/assets/img/ayinde.png"
-  license: "BSD-3-Clause"
-
-- title: "DocuGen — Documentation Static Site Generator Plugin"
-  description: |
-    A Jekyll plugin that generates API reference pages from OpenAPI specs and Rust doc-comments.
-    Integrates with CI to publish versioned docs.
-  url: "https://axiomdb.example.com"
-  repo: "https://github.com/GargantuaM87/docugen"
-  tech:
-    - Ruby
-    - Jekyll Plugin
-    - OpenAPI
-    - GitHub Actions
-  year: 2022
-  featured: false
-  order: 5
-  image: "/assets/img/projects/docugen.png"
-  license: "MIT"
-
-- title: "Pulse — Mobile Habit Tracker"
-  description: |
-    A privacy-focused mobile application to track habits and small goals. Offline-first, encrypted local storage,
-    and periodic backup/export options.
-  url: "https://pulse.example.com"
-  repo: "https://github.com/example/pulse-mobile"
-  tech:
-    - Flutter
-    - SQLite
-    - Riverpod
-    - Firebase (optional sync)
-  year: 2021
-  featured: false
-  order: 6
-  image: "/assets/img/projects/pulse.png"
-  license: "Proprietary"
+  image:
+  license:

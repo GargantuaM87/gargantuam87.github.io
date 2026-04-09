@@ -5,7 +5,7 @@ order: 0
 permalink: /about/
 ---
 ## Undergraduate Computer Scientist
-Highkey don't know what I'm going to end up as in the future. Currently interested in graphics programming, Linux development, game development, memory management embedded systems and I guess software engineering.
+Highkey don't know what I'm going to end up as in the future. Currently interested in graphics programming, Linux development, game development, memory management embedded systems and I guess software engineering. What I'm proficient in will be shown across the projects I do and the technical blogs I write up.
 
 Besides computer science, I really love anime, working out, sketching and 3D art (what got me into compsci), reading, video games and more...
 

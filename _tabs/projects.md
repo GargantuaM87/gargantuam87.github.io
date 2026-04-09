@@ -6,21 +6,6 @@ order: 2
 permalink: /projects/
 ---
 
-This page showcases selected technical projects. Projects are sourced from `_data/projects.yml`. Each project may contain:
-
-- `title` (string) — required
-- `description` (string) — optional
-- `url` (string) — optional, link to live demo
-- `repo` (string) — optional, link to source repository
-- `tech` (array) — optional, list of technologies
-- `year` (number) — optional
-- `featured` (boolean) — optional, when true the project is highlighted
-- `order` (number) — optional, lower numbers display first
-
-How it works
-- Featured projects (where `featured: true`) are surfaced first and ordered by `order`.
-- Remaining projects are shown afterward, ordered by `order`.
-
 
 {% comment %}
 Prepare two lists:
@@ -82,35 +67,7 @@ Use where and where_exp for filtering, then sort by `order` if present.
 {% endif %}
 
 ---
-
-Example project YAML (put this in <code>_data/projects.yml</code>):
-
-- title: "Personal Portfolio (This Site)"
-  description: >
-    A responsive personal portfolio and blog built with Jekyll and the Chirpy theme.
-  url: "https://GargantuaM87.github.io"
-  repo: "https://github.com/GargantuaM87/gargantuam87.github.io"
-  tech:
-    - Jekyll
-    - Liquid
-    - SCSS
-  year: 2026
-  featured: true
-  order: 1
-
-
-- title: "CLI Ops"
-  description: "Cross-platform CLI automations for developer workflows."
-  repo: "https://github.com/username/cli-ops"
-  tech:
-    - Node.js
-    - TypeScript
-  year: 2025
-  featured: false
-  order: 2
-
-
-Notes and tips
-- Note: image/thumbnail support has been removed from the Projects page; only textual project fields (title, description, tech, repo, year, featured) are used now.
-- The page uses simple CSS classes (`projects-grid`, `project-card`, `project-thumb`, `project-body`, `project-title`, `project-description`, `project-meta`, `tech-badge`) so you can style them in your theme SCSS. If you want, I can add a small SCSS snippet that matches the Catppuccin Mocha palette and makes the project cards look polished.
-- If you want pagination, filters by tech, or a different layout (carousel, masonry, etc.) I can implement that as a follow-up.
+# Future Projects...
+- Definately a Physics engine
+- An old abandoned game that I've been meaning to finish 
+- A game engine made in Vulkan, but that's after I grasp most of OpenGL
