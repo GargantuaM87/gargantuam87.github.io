@@ -5,13 +5,22 @@ order: 0
 permalink: /about/
 ---
 ## Undergraduate Computer Scientist
-Highkey don't know what I'm going to end up as in the future. Currently interested in graphics programming, Linux development, game development, memory management embedded systems and I guess software engineering. What I'm proficient in will be shown across the projects I do and the technical blogs I write up.
+Lowkey don't know what I'm going to end up as in the future. 
 
-Besides computer science, I really love anime, working out, sketching and 3D art (what got me into compsci), reading, video games and more...
+I'm Ayinde Abrams, a computer scientist with an interest in computer graphics, game development, Linux development, and embedded systems. 
+This is going to (hopefully) end up as a place to share my technical insight, whether through blogs or projects.
+
+
+Besides computer science, I love anime, studying, working out, sketching and 3D art (what got me into compsci), reading, video games, cooking,
+and hair care.
+
+### Where the Wind is taking me
+Currently I'm working on a process debugger for x64 machines, and
+going through LearnOpenGL. This summer I'll be working as a computer science instructor for iD Tech.
 
 ## Bookshelf
 ---------------------
-- Building a Debugger, *Sy Brand*
+- Building a Debugger: Write a Native x64 Debugger From Scratch, *Sy Brand*
 - C++ Memory Management, 1st ed.,  *Patrice Roy*
 - Learn OpenGL, *Joey de Vries*
 - Introduction to Computer Graphics, *David J. Eck*
