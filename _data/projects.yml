@@ -1,4 +1,4 @@
-- title: "OpenGL Instancing"
+- title: "OpenGL Instancing - A Beginner OpenGL Project"
   description: |
     A combination of multiple graphic techniques. This project features custom frame buffers, post-processing, gamma correction, anti-aliasing, and more.
   url:
@@ -18,7 +18,7 @@
   image: "/assets/img/projects/portfolio.png"
   license: "MIT"
 
-- title: "Sinful Waves"
+- title: "Sinful Waves - A Game Jam Submission"
   description: |
     A little platformer game made for the GitHub Game off 2025 gamejam on itch.io. This was made with a team that had three programmers and some artists.
     I participated as one of the lead programmers. We made this game in about a month for the theme, "Waves."
@@ -33,11 +33,11 @@
   image:
   license:
 
-- title: "arcDebugger - A Process Debugger"
+- title: "arcDebugger - A x64 Process Debugger"
   description: |
-    A process debugger that is currently work in progress. I'm writing this in C++ and having a lot of fun learning as I program.
-    Currently, its main functionalities is to attatch to a process and launch a process with/without attatching.
-    Hopefully this will help me figure out the memory leak I have going on my system right now.
+    A process debugger that is currently work in progress. I'm writing this in C++ and using CMake to link various libraries and dependencies.
+    Currently, the debugger is utilized through a CLI, and it supports process attatching and launching, writing and reading to registers, machine code disassembly,
+    setting software breakpoints, hardware breakpoints, and watchpoints, and single-stepping over process instructions.
   url:
   repo: "https://github.com/GargantuaM87/arc-debugger"
   tech:
