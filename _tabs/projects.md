@@ -68,6 +68,5 @@ Use where and where_exp for filtering, then sort by `order` if present.
 
 ---
 # Future Projects...
-- Definately a Physics engine
-- An old abandoned game that I've been meaning to finish 
-- A game engine made in Vulkan, but that's after I grasp most of OpenGL
+- Definitely a Physics engine
+- A raytracer
